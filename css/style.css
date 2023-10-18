@@ -17,6 +17,10 @@ header {
     box-shadow: 0px 0px 17px 6px rgba(0,0,0,0.54);
 }
 
+#my-menu {
+    display: none;
+}
+
 /******************** 
     main elements
 ********************/
@@ -74,3 +78,15 @@ main { padding-top: 5rem; }
 }
 
 #copy { height: 30px; }
+
+@media screen and (max-width: 767px) {
+    
+    .my-none {
+        display: none;
+    }
+
+    #my-home {
+        display: unset;
+    }
+
+}
