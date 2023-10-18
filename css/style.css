@@ -1,14 +1,24 @@
 /******************** 
-common UI elements
+    common UI elements
 ********************/
 
 .my-bg-blue { background-color: #2C3E50; }
 .my-bg-green { background-color: #1ABC9C; }
+.my-bg-lightblue { background-color: #3A546D; }
 
 .my-none { text-decoration: none; }
 
 /******************** 
-header elements
+    header elements
+********************/
+
+header {
+    z-index: 99;
+    box-shadow: 0px 0px 17px 6px rgba(0,0,0,0.54);
+}
+
+/******************** 
+    main elements
 ********************/
 
 main { padding-top: 5rem; }
@@ -20,4 +30,47 @@ main { padding-top: 5rem; }
     color: white;
     border: solid 3px white;
     border-radius: 5px;
+    z-index: 1;
 }
+
+.my-hr-black {
+    width: 15%;
+    color: black;
+    border: solid 3px black;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+#my-button-download {
+    border: solid 1px white;
+    height: 40px;
+    transition: all .55s ease;
+}
+
+#my-button-download:hover {
+    background-color: #27caaa;
+    transform: scale(1.2);
+}
+
+#my-button-send {
+    background-color: #1ABC9C;
+    transition: all .55s ease;
+}
+
+#my-button-send:hover { background-color: #1fd8b3; }
+
+/******************** 
+    footer elements
+********************/
+
+.my-link {
+    color: #1ABC9C;
+    transition: all .55s ease;
+}
+
+.my-link:hover {
+    cursor: pointer;
+    color: #1fd8b3;
+}
+
+#copy { height: 30px; }
