@@ -1,0 +1,23 @@
+/******************** 
+common UI elements
+********************/
+
+.my-bg-blue { background-color: #2C3E50; }
+.my-bg-green { background-color: #1ABC9C; }
+
+.my-none { text-decoration: none; }
+
+/******************** 
+header elements
+********************/
+
+main { padding-top: 5rem; }
+
+#my-img { max-width: 15rem; }
+
+.my-hr {
+    width: 8%;
+    color: white;
+    border: solid 3px white;
+    border-radius: 5px;
+}
